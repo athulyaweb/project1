@@ -1,0 +1,210 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novaq | Trendy Fashion</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Announcement -->
+    <div class="announcement">
+        FREE SHIPPING ON ORDERS OVER ₹2,999
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <a href="#" class="logo">NOVA<span>Q</span></a>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#collections">Collections</a>
+            <a href="#products">Shop</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#products" class="cart-link">Shop Now ↗</a>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-text">
+            <span class="subtitle">THE NEW SEASON COLLECTION</span>
+
+            <h1>Wear your<br><em>next.</em></h1>
+
+            <p>
+                Discover your personal style with Novaq.
+                Explore modern essentials, timeless silhouettes
+                and statement pieces designed for everyday life.
+            </p>
+
+            <a href="#products" class="btn">Shop Collection ↗</a>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=85"
+                alt="Novaq fashion collection">
+        </div>
+    </section>
+
+    <!-- Collections -->
+    <section class="section" id="collections">
+        <div class="section-heading">
+            <span class="subtitle">EXPLORE YOUR STYLE</span>
+            <h2>Shop by Collection</h2>
+            <p>Find your style. Make it your own.</p>
+        </div>
+
+        <div class="categories">
+            <a href="#products" class="category">
+                <img
+                    src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=85"
+                    alt="Women's fashion">
+                <h3>Women ↗</h3>
+            </a>
+
+            <a href="#products" class="category">
+                <img
+                    src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=800&q=85"
+                    alt="Men's fashion">
+                <h3>Men ↗</h3>
+            </a>
+
+            <a href="#products" class="category">
+                <img
+                    src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=85"
+                    alt="Fashion accessories">
+                <h3>Accessories ↗</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section products-section" id="products">
+        <div class="section-heading">
+            <span class="subtitle">CURATED FOR YOU</span>
+            <h2>Trending Now</h2>
+            <p>Your next favourite pieces are waiting.</p>
+        </div>
+
+        <div class="products">
+
+            <article class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=700&q=85"
+                        alt="Everyday overshirt">
+                </div>
+                <div class="product-info">
+                    <h3>Everyday Overshirt</h3>
+                    <p>₹2,499</p>
+                    <button onclick="addToBag('Everyday Overshirt')">
+                        Add to Bag +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=700&q=85"
+                        alt="Soft form knitwear">
+                </div>
+                <div class="product-info">
+                    <h3>Soft Form Knit</h3>
+                    <p>₹1,899</p>
+                    <button onclick="addToBag('Soft Form Knit')">
+                        Add to Bag +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=85"
+                        alt="Studio straight jeans">
+                </div>
+                <div class="product-info">
+                    <h3>Studio Straight Jeans</h3>
+                    <p>₹2,799</p>
+                    <button onclick="addToBag('Studio Straight Jeans')">
+                        Add to Bag +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=700&q=85"
+                        alt="The daily tote handbag">
+                </div>
+                <div class="product-info">
+                    <h3>The Daily Tote</h3>
+                    <p>₹1,299</p>
+                    <button onclick="addToBag('The Daily Tote')">
+                        Add to Bag +
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Promotional banner -->
+    <section class="promo" id="about">
+        <span class="subtitle">YOUR STYLE, YOUR STORY</span>
+        <h2>Fashion Without Rules.</h2>
+        <p>Modern essentials. Individual style. Made for you.</p>
+        <a href="#products" class="btn">Discover Novaq ↗</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <a href="#" class="logo">NOVA<span>Q</span></a>
+                <p>Wear your next.<br>Everyday fashion, reimagined.</p>
+            </div>
+
+            <div>
+                <h4>Explore</h4>
+                <a href="#collections">Collections</a>
+                <a href="#products">New Arrivals</a>
+                <a href="#products">Best Sellers</a>
+            </div>
+
+            <div>
+                <h4>Customer Care</h4>
+                <a href="#about">About Us</a>
+                <a href="mailto:hello@novaq.example">Contact</a>
+                <a href="#about">Shipping & Returns</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 NOVAQ. ALL RIGHTS RESERVED.
+        </div>
+    </footer>
+
+    <!-- Demo button functionality -->
+    <script>
+        function addToBag(productName) {
+            alert(productName + " added to your bag!");
+        }
+    </script>
+
+</body>
+</html>
